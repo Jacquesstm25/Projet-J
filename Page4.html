@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%); /* Dégradé de bleu clair à bleu foncé */
+            color: white;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        ul.cercle {
+            list-style: circle;
+        }
+        ul.carre {
+            list-style: square;
+        }
+        ul.rien {
+            list-style: none;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Quelques listes non ordonnées</h2>
+    <p>Voici une liste à puce non ordonnée sans modification (= <em>disc</em>) :</p>
+    <ul>
+        <li>Liste</li>
+        <li>à</li>
+        <li>puces</li>
+    </ul>
+    <p>Avec <em>circle</em> :</p>
+    <ul class="cercle">
+        <li>Liste</li>
+        <li>à</li>
+        <li>puces</li>
+    </ul>
+    <p>Avec <em>square</em> :</p>
+    <ul class="carre">
+        <li>Liste</li>
+        <li>à</li>
+        <li>puces</li>
+    </ul>
+    <p>Avec <em>none</em> (sans puces) :</p>
+    <ul class="rien">
+        <li>Liste</li>
+        <li>à</li>
+        <li>puces</li>
+    </ul>
+</body>
+</html>
